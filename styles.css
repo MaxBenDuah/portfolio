@@ -1,0 +1,37 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 8rem;
+}
+
+.navigation__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navigation-links {
+  text-decoration: none;
+  color: #232323;
+  font-size: 1.3rem;
+  padding: 0.4rem 1.2rem;
+  border-radius: 2rem;
+}
+
+.navigation-links:hover {
+  background: #e7e5e5;
+}

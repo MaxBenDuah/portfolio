@@ -6,10 +6,16 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
+html {
+  font-size: 62.5%;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+  height: 1600px;
+}
+
+/* HEADER */
 .header {
   display: flex;
   align-items: center;
@@ -37,6 +43,7 @@ body {
   background: #e7e5e5;
 }
 
+/* HERO */
 .hero {
   padding: 0 9rem;
 }
@@ -96,4 +103,44 @@ body {
   border: 0.5px solid #676666;
   border-radius: 5px;
   cursor: pointer;
+}
+
+/* RECENT CONTRACTS */
+.recent__contracts {
+  padding: 0 8rem;
+  margin-top: 6rem;
+}
+
+.recent__contracts-heading {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+  font-weight: 200;
+  color: #383838;
+}
+
+.recent__contracts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  padding: 0.8rem 0;
+  font-size: 2.4rem;
+  font-weight: 200;
+  border-bottom: 0.4px solid #f3eeee;
+}
+
+.recent__contracts-ongoing {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.recent__contracts-ongoing .recent__contracts-ongoing-text {
+  font-size: 2.4rem;
+  background: #f1f1ee;
+  padding: 2px 12px 3px;
+  color: #383838;
+  border-radius: 2rem;
+}
+
+.recent__contracts-grid .recent__contracts-year {
+  margin-left: auto;
 }

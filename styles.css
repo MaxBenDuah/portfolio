@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  height: 8600px;
+  /* height: 8600px; */
   line-height: 1;
 }
 
@@ -53,61 +53,69 @@ body {
   padding: 0 9rem;
 }
 
-.hero__container {
-  position: relative;
-  background: #eae6e6;
-  border-radius: 1rem;
-}
-
 .hero__img {
-  width: 100%;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url("./images/workspace-and-screen.AYxWxjRO_ZmruSL.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 92vh;
+  position: relative;
+  border-radius: 1.3rem;
 }
 
 .hero__text-container {
   position: absolute;
   top: 50%;
   left: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   transform: translate(-50%, -50%);
-  background: rgba(242, 242, 155, 0.913);
-  width: 100%;
-  height: 100%;
-  border-radius: 1rem;
 }
 
 .hero-content {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 10rem;
+}
+
+.hero__text-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
 }
 
 .hero__heading {
-  font-size: 4rem;
-  font-weight: 600;
+  font-size: 12rem;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  line-height: 0.9;
+  letter-spacing: -0.3rem;
 }
 
 .hero__text {
+  font-size: 2.6rem;
+  color: #fff;
   text-align: center;
-  font-size: 1.2rem;
 }
 
 .hero__btn-container {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .hero__btn {
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding: 0.4rem 1rem;
-  color: #232323;
   border: none;
-  background: rgb(226, 226, 54);
-  border: 0.5px solid #676666;
-  border-radius: 5px;
+  padding: 1.5rem 6rem;
+  font-size: 2.5rem;
+  border-radius: 3rem;
+  background: rgb(241, 241, 61);
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero__btn:hover {
+  background: rgb(213, 213, 9);
 }
 
 /* RECENT CONTRACTS */
@@ -118,7 +126,8 @@ body {
 
 .recent__contracts-heading {
   font-size: 2rem;
-  margin-bottom: 0.8rem;
+  /* margin-bottom: 2rem; */
+  padding: 8rem 0 2rem 0;
   font-weight: 200;
   color: #383838;
 }

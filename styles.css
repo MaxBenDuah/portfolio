@@ -172,6 +172,7 @@ body {
 
 .selected__projects-grid-item {
   overflow: hidden;
+  cursor: pointer;
 }
 
 .selected__projects-grid-item .selected__projects-flex {
@@ -263,6 +264,13 @@ body {
   border: 1px solid #383838;
   border-radius: 1.8rem;
   font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.what__i-do-button:hover {
+  background: #232323;
+  color: #fff;
 }
 
 /* FOOTER */
@@ -297,6 +305,7 @@ body {
 
 .footer__icons i {
   font-size: 3rem;
+  cursor: pointer;
 }
 
 .footer__copyright {

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Shapeways.io</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="logo">Lorem</h2>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__list--item">
+            <a href="#" class="navigation-links">Home</a>
+          </li>
+          <li class="navigation__list--item">
+            <a href="#" class="navigation-links">Portfolio</a>
+          </li>
+          <li class="navigation__list--item">
+            <a href="#" class="navigation-links">About</a>
+          </li>
+          <li class="navigation__list--item">
+            <a href="#" class="navigation-links">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <div class="hero__img">
+          <div class="hero__text-container">
+            <div class="hero-content">
+              <div class="hero__text-detail">
+                <h1 class="hero__heading">Code Your Future, Shape Your Way.</h1>
+                <p class="hero__text">
+                  Learn HTML, CSS, JavaScript, WordPress, and more — with job
+                  support after you graduate.
+                </p>
+              </div>
+              <div class="hero__btn-container">
+                <button class="hero__btn">
+                  Get Started <i class="ph ph-arrow-circle-up-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- INTRO SECTION -->
+      <section class="intro">
+        <div class="intro__container">
+          <h1 class="intro__heading">A small, friendly studio of one</h1>
+          <p class="intro__text">
+            Guy Moorhouse is the principal of Futurefabric Studio — a creative
+            practice that has been crafting digital products for progressive,
+            forward-thinking clients for over a decade.
+          </p>
+        </div>
+      </section>
+
+      <!-- STUDIO -->
+      <section class="studio">
+        <!-- FIRST GRID -->
+        <div class="studio__grid1">
+          <div class="studio__grid-img-item">
+            <picture>
+              <source
+                srcset="
+                  ./images/studio-img-source1.webp  640w,
+                  ./images/studio-img-source2.webp  768w,
+                  ./images/studio-img-source3.webp 1280w,
+                  ./images/studio-img-source4.webp 1920w,
+                  ./images/studio-img-source5.webp 2560w
+                "
+                type="image/webp"
+                sizes="100vw"
+              />
+              <img
+                src="./images/studio-img1.webp"
+                srcset="
+                  ./images/studio-img-source1.jpg  640w,
+                  ./images/studio-img-source2.jpg  768w,
+                  ./images/studio-img-source3.jpg 1280w,
+                  ./images/studio-img-source4.jpg 1920w,
+                  ./images/studio-img-source5.jpg 2560w
+                "
+                alt="Guy Moorhouse in his home studio"
+                sizes="100vw"
+                class="studio__img"
+              />
+            </picture>
+          </div>
+          <div class="studio__grid-text-item">
+            <p class="studio__heading">What I do</p>
+            <h2 class="studio__subheading">
+              Design, branding,<br />
+              prototyping and build
+            </h2>
+            <p class="studio__text">
+              Hey I'm Guy. I design and build for the web and related
+              technologies, typically consulting with organisations that are at
+              the beginning of something new — a period of invention where a new
+              product or service needs to be realised and communicated online.
+            </p>
+          </div>
+        </div>
+
+        <!-- SECOND GRID -->
+        <div class="studio__grid2">
+          <div class="studio__grid-text-item">
+            <p class="studio__heading">Working with you</p>
+            <h2 class="studio__subheading">
+              A multi-discipline creative partner
+            </h2>
+            <p class="studio__text">
+              My work typically involves the creation of websites, software
+              prototypes and animations. I straddle product design, brand design
+              and front-end development and can bring all of these and more to
+              bear on your next project, whether I'm collaborating with you and
+              your team or handling an entire project solo.
+            </p>
+          </div>
+          <div class="studio__grid-img-item">
+            <picture>
+              <source
+                srcset="
+                  ./images/moorhouse-pic-source1.webp  640w,
+                  ./images/moorhouse-pic-source2.webp  768w,
+                  ./images/moorhouse-pic-source3.webp 1280w,
+                  ./images/moorhouse-pic-source4.webp 1920w,
+                  ./images/moorhouse-pic-source5.webp 2560w
+                "
+                type="image/webp"
+                sizes="100vw"
+              />
+              <img
+                src="./images/moorhouse-desktop.webp"
+                srcset="
+                  ./images/moorhouse-desktop-img-source1.jpg  640w,
+                  ./images/moorhouse-desktop-img-source2.jpg  768w,
+                  ./images/moorhouse-desktop-img-source3.jpg 1280w,
+                  ./images/moorhouse-desktop-img-source4.jpg 1920w,
+                  ./images/moorhouse-desktop-img-source5.jpg 2560w
+                "
+                alt="Guy Moorhouse's desktop"
+                sizes="100vw"
+                class="studio__img"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <!-- DISPLAY IMAGE GRID -->
+      <section class="display__img">
+        <div class="display__img-grid">
+          <!-- FIRST -->
+          <div>
+            <picture>
+              <source
+                srcset="
+                  ./images/hand-pic-source1.webp  640w,
+                  ./images/hand-pic-source2.webp  768w,
+                  ./images/hand-pic-source3.webp 1280w,
+                  ./images/hand-pic-source4.webp 1920w,
+                  ./images/hand-pic-source5.webp 2294w
+                "
+                type="image/webp"
+                sizes="100vw"
+              />
+              <img
+                src="./images/hand.webp"
+                srcset="
+                  ./images/hand-img-source1.jpg  640w,
+                  ./images/hand-img-source2.jpg  768w,
+                  ./images/hand-img-source5.jpg 1280w,
+                  ./images/hand-img-source3.jpg 1920w,
+                  ./images/hand-img-source4.jpg 2294w
+                "
+                alt="Writing JavaScript in VSCode"
+                sizes="100vw"
+                class="hand__img"
+              />
+            </picture>
+          </div>
+
+          <!-- SECOND -->
+          <div>
+            <!-- <picture>
+              <source
+                srcset="
+                  ./images/hand-pic-source1.webp  640w,
+                  ./images/hand-pic-source2.webp  768w,
+                  ./images/hand-pic-source3.webp 1280w,
+                  ./images/hand-pic-source4.webp 1920w,
+                  ./images/hand-pic-source5.webp 2294w
+                "
+                type="image/webp"
+                sizes="100vw"
+              />
+              <img
+                src="./images/hand.webp"
+                srcset="
+                  ./images/hand-img-source1.jpg  640w,
+                  ./images/hand-img-source2.jpg  768w,
+                  ./images/hand-img-source5.jpg 1280w,
+                  ./images/hand-img-source3.jpg 1920w,
+                  ./images/hand-img-source4.jpg 2294w
+                "
+                alt="Writing JavaScript in VSCode"
+                sizes="100vw"
+                class="hand__img"
+              />
+            </picture> -->
+            <img
+              src="./images/procreate.webp"
+              class="hand__img"
+              alt="Guy Moorhouse drawing a plant pot on an iPad"
+            />
+          </div>
+
+          <!-- THIRD -->
+          <div>
+            <!-- <picture>
+              <source
+                srcset="
+                  ./images/hand-pic-source1.webp  640w,
+                  ./images/hand-pic-source2.webp  768w,
+                  ./images/hand-pic-source3.webp 1280w,
+                  ./images/hand-pic-source4.webp 1920w,
+                  ./images/hand-pic-source5.webp 2294w
+                "
+                type="image/webp"
+                sizes="100vw"
+              />
+              <img
+                src="./images/hand.webp"
+                srcset="
+                  ./images/hand-img-source1.jpg  640w,
+                  ./images/hand-img-source2.jpg  768w,
+                  ./images/hand-img-source5.jpg 1280w,
+                  ./images/hand-img-source3.jpg 1920w,
+                  ./images/hand-img-source4.jpg 2294w
+                "
+                alt="Writing JavaScript in VSCode"
+                sizes="100vw"
+                class="hand__img"
+              />
+            </picture> -->
+            <img
+              src="./images/type.webp"
+              class="hand__img"
+              alt="Typography investigation"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- WHO I WORK WITH -->
+      <section class="who__i-work-with">
+        <div class="who__i-work-with-grid">
+          <!-- FIRST GRID -->
+          <div>
+            <p class="who__i-work-with-heading">Who I work with</p>
+            <h2 class="who__i-work-with-subheading">Selected clients</h2>
+            <p class="who__i-work-with-text">
+              From one person start-ups to global tech companies, I am proud of
+              the wonderful selection of clients my tiny studio has collaborated
+              with over the last 13 years.
+            </p>
+            <p class="who__i-work-with-text">
+              To get a better steer into how I might help you, you can read
+              about <a href="#">some of my previous client projects,</a> and if
+              you’re interested to join them,
+              <a href="">I’d love to hear from you.</a>
+            </p>
+          </div>
+
+          <!-- SECOND GRID -->
+          <div class="who__i-work-with-grid-img1">
+            <img
+              src="./images/adept-logo.svg"
+              alt=""
+              class="who__i-work-with-logo"
+            />
+            <img
+              src="./images/animade-logo.svg"
+              alt=""
+              class="who__i-work-with-logo"
+            />
+            <img
+              src="./images/boords-logo.svg"
+              alt=""
+              class="who__i-work-with-logo"
+            />
+            <img
+              src="./images/easol-logo.svg"
+              alt=""
+              class="who__i-work-with-logo"
+            />
+            <img
+              src="./images/fable-logo.svg"
+              alt=""
+              class="who__i-work-with-logo"
+            />
+            <img
+              src="./images/facebook-logo.svg"
+              alt=""
+              class="who__i-work-with-logo"
+            />
+            <img
+              src="./images/google-logo.svg"
+              alt=""
+              class="who__i-work-with-logo"
+            />
+            <img
+              src="./images/headspace-logo.svg"
+              alt=""
+              class="who__i-work-with-logo"
+            />
+          </div>
+
+          <!-- THIRD GRID -->
+          <div class="who__i-work-with-grid-img2">
+            <img
+              src="./images/malika-logo.svg"
+              alt=""
+              class="who__i-work-with-logo"
+            />
+            <img
+              src="./images/superhi-logo.svg"
+              alt=""
+              class="who__i-work-with-logo"
+            />
+            <img
+              src="./images/the-modern-house-logo.svg"
+              alt=""
+              class="who__i-work-with-logo"
+            />
+            <img
+              src="./images/unmade-logo.svg"
+              alt=""
+              class="who__i-work-with-logo"
+            />
+            <img
+              src="./images/va-logo.svg"
+              alt=""
+              class="who__i-work-with-logo"
+            />
+            <img
+              src="./images/virgin-logo.svg"
+              alt=""
+              class="who__i-work-with-logo"
+            />
+            <img
+              src="./images/vitsoe-logo.svg"
+              alt=""
+              class="who__i-work-with-logo"
+            />
+            <img
+              src="./images/superhi-logo.svg"
+              alt=""
+              class="who__i-work-with-logo"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__contact">
+        <p>Get in touch</p>
+        <p>hey@futurefabric.co</p>
+        <button class="what__i-do-button">
+          <span>Copy email adress</span>
+          <i class="ph ph-copy"></i>
+        </button>
+        <div class="footer__icons">
+          <i class="ph ph-x-logo"></i>
+          <i class="ph ph-behance-logo"></i>
+          <i class="ph ph-paypal-logo"></i>
+        </div>
+      </div>
+
+      <div class="footer__copyright">
+        <p>
+          <i class="ph ph-copyright"></i>
+          <span>Futurefabric Ltd. and clients, 2008–2025</span>
+        </p>
+        <p>Registered in the UK and Wales. Company 06759081. VAT 326240627.</p>
+        <p>
+          Website hand coded with
+          <span><a href="#" class="footer__copyright-link">Astro</a></span>
+          (v5.3.0) and
+          <span><a href="#" class="footer__copyright-link">Tailwind</a></span>
+          (v4.0.6).
+        </p>
+      </div>
+
+      <div class="footer__links">
+        <a href="#">Newsletter</a>
+        <a href="#">Company values</a>
+        <a href="#">Legal statements</a>
+        <a href="#">RSS Feed</a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+.contact__us {
+  padding: 4rem 8rem;
+}
+
+.contact__us-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.inp {
+  display: block;
+  width: 50%;
+  padding: 1rem 2rem;
+}
+
+.input__fullName {
+  /* padding: 1rem 2rem; */
+}
+
+.contact__us-text {
+  padding: 4rem 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+  color: #232323;
+  border: 1px solid #232323;
+  border-top-right-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+}
+
+.contact__us-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact__us-text-container h2 {
+  font-size: 4rem;
+}
+.contact__us-text-container p {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+.contact__us-grid .img__container {
+  justify-self: end;
+}
+
+.contact__us-grid .img__container img {
+  display: block;
+  border-top-left-radius: 0.8rem;
+  border-bottom-left-radius: 0.8rem;
+}
+
+.contact__us-grid .input-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.contact__us-grid textarea {
+  width: 50%;
+  padding: 1rem 2rem;
+}
+
+.contact__us-grid .btn {
+  display: block;
+  background: none;
+  border: none;
+  border: 1px solid #232323;
+  padding: 1rem 3rem;
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+  transition: all 0.5s ease-out;
+}
+
+.contact__us-grid .btn:hover {
+  background: #383838;
+  color: #fff;
+}

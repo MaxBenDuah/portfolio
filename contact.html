@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
     <header class="header">
@@ -58,9 +59,30 @@
       </section>
 
       <!-- CONTACT US -->
-      <section>
-        <div>
-          <img src="./images/contact-us.webp" alt="Contact Us" />
+      <section class="contact__us">
+        <div class="contact__us-grid">
+          <div class="img__container">
+            <img src="./images/contact-us.webp" alt="Contact Us" />
+          </div>
+          <div class="contact__us-text">
+            <div class="contact__us-text-container">
+              <h2>Let's get in touch!</h2>
+              <p>Fill in the form and I will get back to your soon.</p>
+            </div>
+            <div class="input-flex">
+              <input
+                type="text"
+                placeholder="Full Name"
+                class="inp input__fullName"
+              />
+              <input type="email" placeholder="Email Address" class="inp" />
+              <textarea cols="10" rows="5">
+            Write your message here...
+          </textarea
+              >
+              <button class="btn">Get in touch</button>
+            </div>
+          </div>
         </div>
       </section>
     </main>

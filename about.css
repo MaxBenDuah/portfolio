@@ -32,8 +32,12 @@
 
 .studio__grid1 {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  column-gap: 8rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20rem 8rem;
+}
+
+.studio__grid-img-item {
+  grid-column: span 2;
 }
 
 .studio__grid2 {

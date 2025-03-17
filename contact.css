@@ -22,10 +22,6 @@
   border: none;
 }
 
-.input__fullName {
-  /* padding: 1rem 2rem; */
-}
-
 .contact__us-text {
   padding: 4rem 8rem;
   display: flex;
@@ -58,10 +54,6 @@
   font-size: 2.2rem;
   font-weight: 300;
 }
-
-/* .contact__us-grid .img__container {
-  justify-self: end;
-} */
 
 .contact__us-grid .img__container img {
   display: block;

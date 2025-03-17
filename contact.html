@@ -11,8 +11,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="about.css" />
     <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script defer src="app.js"></script>
   </head>
   <body>
     <header class="header">
@@ -33,6 +34,10 @@
           </li>
         </ul>
       </nav>
+      <button class="mobile-nav-btn">
+        <i class="ph ph-list"></i>
+        <i class="ph ph-x"></i>
+      </button>
     </header>
 
     <main>
@@ -76,10 +81,7 @@
                 class="inp input__fullName"
               />
               <input type="email" placeholder="Email Address" class="inp" />
-              <textarea cols="10" rows="5">
-            Write your message here...
-          </textarea
-              >
+              <textarea cols="30" rows="5">Write your message here...</textarea>
               <button class="btn">Get in touch</button>
             </div>
           </div>

@@ -1,0 +1,262 @@
+/* 2288px - Large Desktops */
+@media (max-width: 143em) {
+  .recent__contracts-grid {
+    font-size: 2rem;
+  }
+
+  .recent__contracts-grid .recent__contracts-ongoing-text {
+    font-size: 1.6rem;
+  }
+
+  .hero__heading {
+    font-size: 8rem;
+  }
+
+  .hero__text {
+    font-size: 2rem;
+  }
+
+  .hero__img {
+    height: 80vh;
+  }
+
+  .selected__projects-grid p {
+    font-size: 1.8rem;
+  }
+
+  .selected__projects-flex h2 {
+    font-size: 3rem;
+  }
+
+  .display__img-grid {
+    height: 60rem;
+    gap: 8rem;
+  }
+
+  .contact__us {
+    padding: 4rem 8rem;
+    width: 90%;
+  }
+
+  .contact__us-text-container h2 {
+    font-size: 2rem;
+  }
+
+  .contact__us-text-container p {
+    font-size: 1.8rem;
+  }
+}
+
+/* 1504px */
+@media (max-width: 94em) {
+  .studio {
+    padding: 10rem 4rem;
+  }
+
+  .studio__grid1 {
+    gap: 10rem 8rem;
+  }
+
+  .studio__grid-img-item {
+    grid-column: span 3;
+  }
+
+  .studio__grid-text-item {
+    grid-column: span 3;
+  }
+
+  .display__img-grid {
+    height: 40rem;
+    gap: 8rem;
+  }
+}
+
+/* 1248px */
+@media (max-width: 78em) {
+  html {
+    font-size: 50%;
+  }
+  .display__img {
+    padding: 0 4rem;
+  }
+  .who__i-work-with {
+    padding: 10rem 4rem;
+  }
+
+  .recent__contracts-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .recent__contracts-ongoing {
+    display: none;
+  }
+
+  .hero__img {
+    height: 50vh;
+  }
+
+  .display__img-grid {
+    height: 50rem;
+  }
+
+  .who__i-work-with-grid-text {
+    grid-column: span 3;
+  }
+
+  .who__i-work-with-grid-img1 {
+    grid-column: span 3;
+  }
+
+  .who__i-work-with-grid-img2 {
+    grid-column: span 3;
+  }
+
+  .contact__us {
+    padding: 4rem 8rem;
+    width: 100%;
+  }
+}
+
+/* 1024 */
+@media (max-width: 64em) {
+  html {
+    font-size: 40%;
+  }
+
+  .selected__projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem 4rem;
+  }
+
+  .selected__projects-grid p {
+    display: none;
+  }
+
+  .contact__us {
+    padding: 4rem 2.56rem;
+  }
+
+  .contact__us-text {
+    padding: 4rem 4rem;
+  }
+
+  .contact__us-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact__us-grid .img__container img {
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    border-bottom-left-radius: 0;
+  }
+
+  .contact__us-grid .btn {
+    width: 100%;
+  }
+
+  .mobile-nav-btn {
+    display: block;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .mobile-nav-btn .ph-x {
+    display: none;
+  }
+
+  .nav-open .mobile-nav-btn .ph-x {
+    display: block;
+  }
+
+  .nav-open .ph-list {
+    display: none;
+  }
+}
+
+/* 800px */
+@media (max-width: 50em) {
+  .hero {
+    padding: 0 4rem;
+  }
+
+  .hero__heading {
+    font-size: 3.2rem;
+  }
+
+  .hero__text {
+    font-size: 1.8rem;
+  }
+
+  .hero__text-detail {
+    gap: 2rem;
+  }
+
+  .hero-content {
+    gap: 5rem;
+  }
+
+  .hero__btn {
+    padding: 0.4rem 1.4rem;
+    font-size: 2rem;
+  }
+
+  .recent__contracts {
+    padding: 0 4rem;
+    margin-top: 3rem;
+  }
+
+  .selected__projects {
+    padding: 0 4rem;
+    margin-top: 8rem;
+  }
+
+  .selected__projects-flex h2 {
+    font-size: 2rem;
+  }
+
+  .what__i-do {
+    padding: 14rem 4rem;
+    gap: 1.4rem;
+  }
+
+  .what__i-do-subheading {
+    font-size: 4.2rem;
+  }
+
+  .intro {
+    padding: 0 4rem;
+  }
+
+  .intro__heading {
+    font-size: 5.6rem;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .display__img-grid {
+    height: 15rem;
+    gap: 2rem;
+  }
+
+  .footer {
+    padding: 10rem 4rem;
+    gap: 3rem;
+  }
+
+  .footer__contact p:nth-child(2) {
+    font-size: 4.2rem;
+    font-weight: 300;
+  }
+
+  .footer__copyright {
+    font-size: 1.6rem;
+  }
+
+  .footer__links a {
+    font-size: 1.6rem;
+  }
+}

@@ -7,8 +7,6 @@
 .contact__us-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* border: 1px solid black; */
-  /* border-radius: 33px; */
   background: #e0e0e0;
   border-radius: 0.3rem;
   background: #f1efef;

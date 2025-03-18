@@ -43,7 +43,8 @@ body {
   gap: 2rem;
 }
 
-.navigation-links {
+.navigation-links:link,
+.navigation-links:visited {
   text-decoration: none;
   color: #232323;
   font-size: 2rem;
@@ -52,8 +53,10 @@ body {
   transition: all 0.3s ease-in;
 }
 
-.navigation-links:hover {
+.navigation-links:hover,
+.navigation-links:active {
   background: #e7e5e5;
+  color: #383838;
 }
 
 .nav-open .navigation {
@@ -158,7 +161,6 @@ body {
 
 .recent__contracts-grid {
   display: grid;
-  /* grid-template-columns: 1fr 1fr 2fr; */
   grid-template-columns: 25fr 45fr 30fr;
   gap: 4rem;
   padding: 0.8rem 0;
@@ -358,14 +360,26 @@ body {
   font-weight: 300;
 }
 
-.footer__copyright .footer__copyright-link {
+.footer__copyright-link:link,
+.footer__copyright-link:visited {
   color: #383838;
 }
 
-.footer__links a {
+.footer__copyright-link:hover,
+.footer__copyright-link:active {
+  color: #232323;
+}
+
+.footer__links a:link,
+.footer__links a:visited {
   color: #383838;
   font-size: 1.8rem;
   font-weight: 300;
+}
+
+.footer__links a:hover,
+.footer__links a:active {
+  color: #232323;
 }
 
 .footer__links a:not(:last-child) {

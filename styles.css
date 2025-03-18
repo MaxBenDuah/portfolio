@@ -12,7 +12,6 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  /* height: 8600px; */
   line-height: 1;
 }
 
@@ -22,6 +21,15 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 2rem 8rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  background: rgba(255, 255, 255, 0.803);
+  width: 100%;
+  z-index: 1000;
+  height: 8rem;
 }
 
 .logo {
@@ -66,6 +74,7 @@ body {
 /* HERO */
 .hero {
   padding: 0 9rem;
+  margin-top: 10rem;
 }
 
 .hero__img {

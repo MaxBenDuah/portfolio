@@ -173,6 +173,38 @@
   .nav-open .ph-list {
     display: none;
   }
+
+  /* .nav-open .navigation {
+    display: block;
+  } */
+
+  /* .navigation {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  } */
+
+  .nav-open .navigation {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255);
+    opacity: 1;
+    z-index: 999;
+  }
+
+  .navigation__list {
+    flex-direction: column;
+    gap: 8rem;
+  }
+
+  .navigation__list .navigation-links {
+    font-size: 6.8rem;
+  }
 }
 
 /* 800px */

@@ -91,6 +91,33 @@ body {
   height: 92vh;
   position: relative;
   border-radius: 1.3rem;
+  background-color: #ffdb70;
+}
+
+.hero__img-about {
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url("./images/projects-2.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 92vh;
+  position: relative;
+  border-radius: 1.3rem;
+}
+
+.hero__img-contact {
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url("./images/contact.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 92vh;
+  position: relative;
+  border-radius: 1.3rem;
 }
 
 .hero__text-container {
@@ -207,6 +234,7 @@ body {
   font-weight: 300;
   margin-bottom: 0.8rem;
 }
+
 .selected__projects-year {
   font-size: 2rem;
   color: #383838;
@@ -234,12 +262,14 @@ body {
 .picture-container {
   overflow: hidden;
   border-radius: 1rem;
+  transition: all 1s ease-in-out;
 }
 
 .selected__projects-flex h2 {
   font-size: 3.6rem;
   color: #232323;
   font-weight: 300;
+  text-transform: capitalize;
 }
 
 .selected__projects-flex p {

@@ -110,9 +110,16 @@
   padding: 18rem 8rem;
 }
 
-.who__i-work-with-grid {
+/* Will change this in queries.css as well */
+/* .who__i-work-with-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+} */
+
+.who__i-work-with-grid-container {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .who__i-work-with-heading {
@@ -142,15 +149,29 @@
   color: #232323;
 }
 
-.who__i-work-with-grid-img1 {
+/* Will change this in queries.css as well */
+/* .who__i-work-with-grid-img1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+} */
+
+.who__i-work-with-grid-img-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
 }
 
-.who__i-work-with-grid-img2 {
+.who__i-work-with-grid-img-container img {
+  display: block;
+  width: 20%;
+  margin: 0 auto;
+}
+
+/* Will change this in queries.css as well */
+/* .who__i-work-with-grid-img2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-}
+} */
 
 .who__i-work-with-logo {
   width: 100%;

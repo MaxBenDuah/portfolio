@@ -20,6 +20,14 @@
     height: 80vh;
   }
 
+  .hero__img-about {
+    height: 80vh;
+  }
+
+  .hero__img-contact {
+    height: 80vh;
+  }
+
   .selected__projects-grid p {
     font-size: 1.8rem;
   }
@@ -95,21 +103,29 @@
     height: 50vh;
   }
 
+  .hero__img-about {
+    height: 50vh;
+  }
+
+  .hero__img-contact {
+    height: 50vh;
+  }
+
   .display__img-grid {
     height: 50rem;
   }
 
-  .who__i-work-with-grid-text {
+  /* .who__i-work-with-grid-text {
     grid-column: span 3;
-  }
+  } */
 
-  .who__i-work-with-grid-img1 {
+  /* .who__i-work-with-grid-img1 {
     grid-column: span 3;
-  }
+  } */
 
-  .who__i-work-with-grid-img2 {
+  /* .who__i-work-with-grid-img2 {
     grid-column: span 3;
-  }
+  } */
 
   .contact__us {
     padding: 4rem 8rem;

@@ -77,6 +77,11 @@
     height: 40rem;
     gap: 8rem;
   }
+
+  .more__projects-grid {
+    grid-template-columns: 1fr;
+    gap: 6rem;
+  }
 }
 
 /* 1248px */
@@ -220,6 +225,14 @@
   .navigation__list .navigation-links:link,
   .navigation__list .navigation-links:visited {
     font-size: 6.8rem;
+  }
+
+  .courses__div-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .courses__text {
+    padding-top: 5rem;
   }
 }
 

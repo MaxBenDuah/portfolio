@@ -248,6 +248,10 @@ body {
   gap: 8rem 4rem;
 }
 
+.selected__projects-grid-link {
+  text-decoration: none;
+}
+
 .selected__projects-grid-item {
   overflow: hidden;
   cursor: pointer;

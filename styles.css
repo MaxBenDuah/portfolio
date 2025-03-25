@@ -23,6 +23,11 @@ body {
   padding: 2rem 8rem;
 }
 
+.header a:first-child {
+  text-decoration: none;
+  color: #232323;
+}
+
 .sticky {
   position: fixed;
   top: 0;

@@ -152,6 +152,11 @@
     font-size: 40%;
   }
 
+  .hero__img {
+    background-size: cover;
+    background-position: center center;
+  }
+
   .hero__heading {
     font-size: 3.2rem;
   }
@@ -258,6 +263,11 @@
     padding: 0 4rem;
   }
 
+  .hero__img {
+    background-size: cover;
+    background-position: center center;
+  }
+
   .hero__heading {
     font-size: 3.2rem;
   }
@@ -349,6 +359,11 @@
 
 /* 592px */
 @media (max-width: 37em) {
+  .hero__img {
+    background-size: cover;
+    background-position: center center;
+  }
+
   .hero__heading {
     font-size: 2rem;
   }

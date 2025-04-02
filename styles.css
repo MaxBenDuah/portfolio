@@ -141,7 +141,7 @@ body {
 .hero__text-detail {
   display: flex;
   flex-direction: column;
-  gap: 3.6rem;
+  gap: 3rem;
 }
 
 .hero__heading {

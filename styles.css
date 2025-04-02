@@ -93,6 +93,7 @@ body {
     url("./images/workspace-and-screen.AYxWxjRO_ZmruSL.webp");
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center center;
   height: 92vh;
   position: relative;
   border-radius: 1.3rem;

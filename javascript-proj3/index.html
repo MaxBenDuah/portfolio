@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <form class="expense-form">
+      <input type="text" placeholder="Title" class="expense-title" />
+      <input
+        type="text"
+        placeholder="Description"
+        class="expense-description"
+      />
+      <input type="number" placeholder="Amount" class="expense-amount" />
+      <select class="expense-category">
+        <option value="food">Food</option>
+        <option value="transport">Transport</option>
+        <option value="entertainment">Entertainment</option>
+        <option value="other">Other</option>
+      </select>
+      <input type="date" class="expense-date" />
+      <button type="submit" class="add-expense-btn">Add</button>
+    </form>
+    <div class="expense-container"></div>
+    <div>Total expenses: <span class="total-expense">0</span></div>
+  </body>
+</html>

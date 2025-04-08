@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <form class="tip-form">
+      <input
+        type="number"
+        placeholder="Enter bill amount"
+        class="bill-amount"
+      />
+      <input
+        type="number"
+        placeholder="Number of people"
+        class="number-of-people"
+      />
+      <select class="tip-percentage">
+        <option value="5">5% – For basic service</option>
+        <option value="10">10% – Okay service</option>
+        <option value="15" selected>15% – Good service</option>
+        <option value="20">20% – Great service</option>
+        <option value="25">25% – Excellent service</option>
+      </select>
+      <button type="submit">Calculate</button>
+    </form>
+    <div class="tip-container">
+      <p class="tip-amount"></p>
+      <p class="total-bill"></p>
+      <p class="each-pays"></p>
+    </div>
+  </body>
+</html>

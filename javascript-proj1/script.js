@@ -1,3 +1,5 @@
+"use strict";
+
 // Query Selectors
 const deacreaseBtn = document.querySelector(".decrease-btn");
 const increaseBtn = document.querySelector(".increase-btn");

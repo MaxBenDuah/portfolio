@@ -1,3 +1,5 @@
+"use strict";
+
 // Query Selectors
 const expenseTitle = document.querySelector(".expense-title");
 const expenseDescription = document.querySelector(".expense-description");

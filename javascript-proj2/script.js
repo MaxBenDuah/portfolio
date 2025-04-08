@@ -1,3 +1,5 @@
+"use strict";
+
 // Query Selectors
 let inpTitle = document.querySelector(".inp-title");
 let inpDescription = document.querySelector(".inp-description");

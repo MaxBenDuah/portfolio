@@ -1,8 +1,10 @@
 "use strict";
 
+// Query Selectors
 const clock = document.querySelector(".clock");
 const todaysDate = document.querySelector(".todays-date");
 
+// Date Convertor Function
 const convertDate = () => {
   const options = {
     year: "numeric",
@@ -16,6 +18,7 @@ const convertDate = () => {
   todaysDate.innerHTML = date;
 };
 
+// Display clock
 const updateClock = () => {
   const now = new Date();
 

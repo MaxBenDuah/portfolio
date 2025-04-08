@@ -1,5 +1,6 @@
 "use strict";
 
+// Query Selectors
 const tipForm = document.querySelector(".tip-form");
 const billAmount = document.querySelector(".bill-amount");
 const tipContainer = document.querySelector(".tip-container");
@@ -9,6 +10,7 @@ const tipAmount = document.querySelector(".tip-amount");
 const totalBill = document.querySelector(".total-bill");
 const eachPays = document.querySelector(".each-pays");
 
+// Convert Currency
 const convertCurrency = (curr) => {
   const options = {
     style: "currency",
@@ -17,6 +19,7 @@ const convertCurrency = (curr) => {
   return new Intl.NumberFormat("en-GB", options).format(curr);
 };
 
+// Calculate Tip and Amount
 const calculateTip = (e) => {
   e.preventDefault();
   const amount = +billAmount.value.trim();
@@ -38,4 +41,5 @@ const calculateTip = (e) => {
   tipForm.reset();
 };
 
+// Event Listener
 tipForm.addEventListener("submit", calculateTip);
